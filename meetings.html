@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<h1>
+		<span>My</span>
+		<img src="images/logo.png" alt="logo" class="logo">
+    <span>ash</span>
+  </h1>
+    
+  <ul>
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="news.asp">Meetings</a></li>
+    <li><a href="contact.asp">Assignments</a></li>
+    <li><a href="about.asp">About</a></li>
+  </ul>
+
+h1.welcome Hey, #{name}!
+  .grid-container
+    each link in user
+      if link.label === '1'
+        a.widget.first(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '2'
+        a.widget.second(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '3'
+        a.widget.third(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '4'
+        a.widget.fourth(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '5'
+        a.widget.fifth(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '6'
+        a.widget.sixth(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '7'
+        a.widget.seventh(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '8'
+        a.widget.eighth(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === '0'
+        a.widget.zero(href=link.link)
+          h4.label= link.label
+          h1=link.name
+      if link.label === 'Extracurricular'
+        a.widget.ec(href=link.link)
+          h4.label EC
+          h1=link.name
+
+    <script src="script.js"></script>
+  </body>
+</html>
